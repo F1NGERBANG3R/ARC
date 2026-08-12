@@ -135,3 +135,15 @@ find . -type f \
   ! -name '.gitignore' \
   ! -name '.env.example' \
   -print
+
+
+README saved: Yes/No
+README copied to project root: Yes/No
+README committed: Yes/No
+Commit hash:
+Remote URL:
+Remote main branch verified: Yes/No
+Repository private: Yes/No
+Branch protection enabled: Yes/No
+Pull-request review enabled: Yes/No
+Secret scan completed: Yes/No
