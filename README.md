@@ -127,3 +127,11 @@ git status
 git remote -v
 git log -1 --oneline
 git ls-remote --heads origin main
+
+
+find . -type f \
+  ! -path './.git/*' \
+  ! -name 'README.md' \
+  ! -name '.gitignore' \
+  ! -name '.env.example' \
+  -print
